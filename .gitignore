@@ -6,9 +6,13 @@ imgui.ini
 imgui*.ini
 
 ## General build artifacts
+bin/
+bin-int/
 *.o
 *.obj
 *.exe
+**.vcxproj
+**.filters
 examples/*/Debug/*
 examples/*/Release/*
 examples/*/x64/*
