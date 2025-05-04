@@ -7,6 +7,8 @@ project "ImGui"
 
 	files
 	{
+        "backends/**.h",
+        "backends/**.cpp",
 		"imconfig.h",
 		"imgui.h",
 		"imgui.cpp",
